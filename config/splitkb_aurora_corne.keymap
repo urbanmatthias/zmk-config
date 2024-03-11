@@ -27,7 +27,7 @@
 
             sensor-bindings =
                 <&inc_dec_kp PG_UP PAGE_DOWN>,
-                <&inc_dec_kp LA(RIGHT) LA(LEFT)>;
+                <&inc_dec_kp LA(LEFT) LA(RIGHT)>;
         };
 
         lower_layer {
