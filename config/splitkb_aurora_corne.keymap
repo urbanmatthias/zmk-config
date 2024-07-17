@@ -31,6 +31,11 @@
             bindings = <&bt BT_SEL 1>;
             key-positions = <11 23 35>;
         };
+
+        btclr {
+            bindings = <&bt BT_CLR>;
+            key-positions = <4 5 6 7>;
+        };
     };
 
     keymap {
