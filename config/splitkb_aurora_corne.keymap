@@ -94,10 +94,10 @@
 
         mac_lower {
             bindings = <
-&kp GRAVE  &kp N1                &kp N2         &kp N3            &kp N4          &kp N5            &kp N6      &kp N7      &kp N8      &kp N9            &kp N0         &kp DELETE
-&kp TAB    &kp SQT               &kp SEMICOLON  &kp LEFT_BRACKET  &kp MINUS       &kp RA(LS(N7))    &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT         &kp BACKSLASH  &kp ENTER
-&kp LCTRL  &kp NON_US_BACKSLASH  &kp RA(N7)     &kp RA(L)         &kp RA(E)       &kp EQUAL         &kp RA(N8)  &kp RA(N9)  &kp RA(N5)  &kp RA(NUMBER_6)  &kp RA(N)      &kp LEFT_ALT
-                                                &kp LGUI          &kp LEFT_SHIFT  &none             &none       &kp SPACE   &none
+&kp GRAVE         &kp N1                &kp N2         &kp N3            &kp N4          &kp N5            &kp N6      &kp N7      &kp N8      &kp N9            &kp N0         &kp DELETE
+&kp TAB           &kp SQT               &kp SEMICOLON  &kp LEFT_BRACKET  &kp MINUS       &kp RA(LS(N7))    &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT         &kp BACKSLASH  &kp ENTER
+&kp LEFT_COMMAND  &kp NON_US_BACKSLASH  &kp RA(N7)     &kp RA(L)         &kp RA(E)       &kp EQUAL         &kp RA(N8)  &kp RA(N9)  &kp RA(N5)  &kp RA(NUMBER_6)  &kp RA(N)      &kp LEFT_ALT
+                                                       &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none             &none       &kp SPACE   &none
             >;
 
             sensor-bindings =
