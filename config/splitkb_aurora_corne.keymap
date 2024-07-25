@@ -81,10 +81,10 @@
 
         mac {
             bindings = <
-&kp ESCAPE  &kp Q  &kp W  &kp E             &kp R           &kp T    &kp Y  &kp U      &kp I      &kp O    &kp P              &kp BSPC
-&kp TAB     &kp A  &kp S  &kp D             &kp F           &kp G    &kp H  &kp J      &kp K      &kp L    &kp RIGHT_BRACKET  &kp RETURN
-&kp LCMD    &kp Z  &kp X  &kp C             &kp V           &kp B    &kp N  &kp M      &kp COMMA  &kp DOT  &kp FSLH           &kp LEFT_ALT
-                          &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none    &none  &kp SPACE  &mo 3
+&kp ESCAPE        &kp Q  &kp W  &kp E             &kp R           &kp T    &kp Y  &kp U      &kp I      &kp O    &kp P              &kp BSPC
+&kp TAB           &kp A  &kp S  &kp D             &kp F           &kp G    &kp H  &kp J      &kp K      &kp L    &kp RIGHT_BRACKET  &kp RETURN
+&kp LEFT_CONTROL  &kp Z  &kp X  &kp C             &kp V           &kp B    &kp N  &kp M      &kp COMMA  &kp DOT  &kp FSLH           &kp LEFT_ALT
+                                &kp LEFT_COMMAND  &kp LEFT_SHIFT  &none    &none  &kp SPACE  &mo 3
             >;
 
             sensor-bindings =
@@ -96,8 +96,8 @@
             bindings = <
 &kp GRAVE         &kp N1                &kp N2         &kp N3            &kp N4          &kp N5            &kp N6      &kp N7      &kp N8      &kp N9            &kp N0         &kp DELETE
 &kp TAB           &kp SQT               &kp SEMICOLON  &kp LEFT_BRACKET  &kp MINUS       &kp RA(LS(N7))    &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT         &kp BACKSLASH  &kp ENTER
-&kp LEFT_COMMAND  &kp NON_US_BACKSLASH  &kp RA(N7)     &kp RA(L)         &kp RA(E)       &kp EQUAL         &kp RA(N8)  &kp RA(N9)  &kp RA(N5)  &kp RA(NUMBER_6)  &kp RA(N)      &kp LEFT_ALT
-                                                       &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none             &none       &kp SPACE   &none
+&kp LEFT_CONTROL  &kp NON_US_BACKSLASH  &kp RA(N7)     &kp RA(L)         &kp RA(E)       &kp EQUAL         &kp RA(N8)  &kp RA(N9)  &kp RA(N5)  &kp RA(NUMBER_6)  &kp RA(N)      &kp LEFT_ALT
+                                                       &kp LEFT_COMMAND  &kp LEFT_SHIFT  &none             &none       &kp SPACE   &none
             >;
 
             sensor-bindings =
